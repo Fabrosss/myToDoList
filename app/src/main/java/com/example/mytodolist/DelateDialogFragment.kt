@@ -12,7 +12,7 @@ import androidx.fragment.app.DialogFragment
 private const val TASK_NAME_PARAM = "task name"
 private const val TASK_POS_PARAM = "task pos"
 
-
+//
 /**
  * A simple [Fragment] subclass.
  * Use the [DelateDialogFragment.newInstance] factory method to

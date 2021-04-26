@@ -31,7 +31,7 @@ class DelateDialogFragment : DialogFragment() {
             taskPosParam = it.getInt(TASK_POS_PARAM)
         }
     }
-
+//
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val builder:  AlertDialog.Builder = AlertDialog.Builder(context)
         builder.setMessage(getString(R.string.delateEntry))

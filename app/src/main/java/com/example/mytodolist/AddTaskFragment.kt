@@ -53,7 +53,7 @@ class AddTaskFragment : Fragment() {
             null -> importatnceGroup.check(R.id.Normal_radioButton)
         }
     }
-
+//
     private fun saveTask() {
         var title: String = titleInput.text.toString()
         var description: String = descriptionInput.text.toString()

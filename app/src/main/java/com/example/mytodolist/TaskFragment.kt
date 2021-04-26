@@ -42,8 +42,7 @@ class TaskFragment : Fragment(), ToDoListListner,
 
     override fun onItemLongClick(position: Int) {
         showDelateDialog(position)
-    }
-
+    }///
     private fun showDelateDialog(position: Int) {
         val deleteDialog = DelateDialogFragment.newInstance(Tasks.ITEMS.get(position).title, position, this)
         deleteDialog.show(requireActivity().supportFragmentManager,"DeleteDialog")

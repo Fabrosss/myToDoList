@@ -80,7 +80,7 @@ class AddTaskFragment : Fragment() {
         }
         val inputMethodMenager: InputMethodManager = activity?.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         inputMethodMenager.hideSoftInputFromWindow(titleInput.windowToken, 0)
-        findNavController().popBackStack(R.id.taskFragment,true)
+        findNavController().popBackStack(R.id.taskFragment,false)
     }
 
 }
